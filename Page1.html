@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page1.html</title>
+
+    <!-- Lien vers le CDN de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa; /* Fond clair */
+            padding: 20px;
+        }
+
+        /* Section de chaque partie */
+        .section {
+            background-color: white; /* Fond blanc pour chaque section */
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2, h3 {
+            color: #007bff; /* Titre en bleu */
+        }
+
+        .photo {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%; /* Pour une photo ronde */
+        }
+
+        .list-group-item {
+            background-color: #e9ecef; /* Fond clair pour les éléments de liste */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container my-5">
+        <div class="section">
+            <h2 class="mb-4">1 ÉTAT CIVIL</h2>
+            <div class="card mb-4">
+                <div class="card-body">
+                    <p><strong>Nom:</strong> TOHON Z</p>
+                    <p><strong>Prénom:</strong> Fourier C</p>
+                    <p><strong>Contact:</strong> 96424571</p>
+                    <p><strong>Filière:</strong> RMS2</p>
+                    <div class="text-center">
+                        <img src="xyz.jpg" alt="Photo de moi" class="photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="mb-4">2 DIPLÔMES</h2>
+            <ul class="list-group mb-4">
+                <li class="list-group-item">CEP</li>
+                <li class="list-group-item">BEPC</li>
+                <li class="list-group-item">Bac D</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3 class="mb-4">3 DESCRIPTION</h3>
+            <p>
+                Tohon Z Fourier est un passionné des arts martiaux, où il trouve à la fois discipline et force intérieure. 
+                Avec un entraînement assidu, il excelle dans plusieurs disciplines, notamment le judo et le karaté, cherchant 
+                toujours à repousser ses limites. Sa curiosité ne s'arrête pas là : Tohon aspire à devenir hacker, attiré par les 
+                défis intellectuels et la technologie. En combinant la rigueur des arts martiaux avec l'ingéniosité du hacking, il rêve 
+                de créer un impact positif dans le monde numérique. Chaque jour, il s'entraîne pour maîtriser à la fois son corps et son 
+                esprit, tout en développant ses compétences techniques. Sa détermination et sa passion font de lui un jeune homme prometteur, 
+                prêt à défendre des causes justes à travers ses talents. Tohon Z Fourier, un guerrier aux multiples facettes, est sur le chemin 
+                d'une carrière exceptionnelle.
+            </p>
+        </div>
+    </div>
+
+    <!-- Lien vers le script Bootstrap (optionnel pour les fonctionnalités JavaScript) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
